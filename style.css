@@ -1,0 +1,862 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  font-family: 'Arimo', sans-serif;
+}
+
+                                                                              /*ENCABEZADO*/
+
+header{
+width: 100%;
+background-color: #002233;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0 0;
+height: 400px;
+
+}     
+
+.logo-texlogo{
+  cursor: pointer;
+}
+
+.tex-logo{
+  color: white;
+  font-size: 32px;
+  position: absolute;
+  left: 60px;
+  top: -3px;
+  transition: 0.3s all ease;
+  margin-top: 26px;
+}
+
+.tex-logo:hover{
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  transform: scale(1.0.5);
+}
+
+.logo{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 5px;
+  top: 7px;
+}
+                                                                                    /* NAV*/
+.nav1{
+ position: absolute;
+ left: 410px;
+ top: 15px;
+ list-style: none;
+}
+
+.a1{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+
+}
+
+.nav2{
+  position: absolute;
+  left: 505px;
+  top: 15px;
+  list-style: none;
+ }
+ 
+ .a2{
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 20px;
+   color: white;
+   border-bottom: 2px solid transparent;
+   transition: all 0.2s ease;
+
+ }
+
+ .nav3{
+  position: absolute;
+  left: 630px;
+  top: 15px;
+  list-style: none;
+ }
+ 
+ .a3{
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 20px;
+   color: white;
+   border-bottom: 2px solid transparent;
+   transition: all 0.2s ease;
+
+ }
+
+ .nav4{
+  position: absolute;
+  left: 750px;
+  top: 15px;
+  list-style: none;
+  
+ }
+ 
+ .a4{
+   text-decoration: none;
+   font-weight: 600;
+   font-size: 20px;
+   color: white;
+   border-bottom: 2px solid transparent;
+   transition: all 0.2s ease;
+ }
+
+ .navlista :hover{
+  border-bottom: 2px solid #ebde2e;
+  color: white;
+  transform: scale(1.3);
+
+ }
+
+ .bx-menu{
+  display: none;
+ }
+
+                                                                                      /*NAV*/
+.img-back{
+ position: absolute;
+ left: 760px;
+ top: 68px;
+ margin: auto;
+}
+
+.redes :hover{
+color: black;
+transform: scale(1.3);
+}
+
+.tik{
+position: absolute;
+left: 60px;
+top: 100px;
+font-size: 50px;
+color: white;
+transition: transform 0.3s ease;
+}
+
+.ig{
+  position: absolute;
+  left: 60px;
+  top: 180px;
+  font-size: 50px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.face{
+  position: absolute;
+  left: 60px;
+  top: 260px;
+  font-size: 55px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+                                                                                   /*BOTONES*/
+
+.botones :hover{
+  color: #ebde2e;
+  border: 2px #ebde2e;
+  
+}
+
+.boton1{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  position: absolute;
+  top: 15px;
+  left: 1250px;
+  padding: 4px 15px;
+  border: 2px solid white;
+  border-radius:6px;
+  background-color: #0099FF;
+  font-weight: 600;
+  margin: auto;
+}
+
+.boton2{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  position: absolute;
+  top: 15px;
+  left: 1150px;
+  padding: 4px 15px;
+  border: 2px solid white;
+  border-radius:6px;
+  display: inline;
+  background-color: #0099FF;
+  font-weight: 600;
+  margin: auto;
+}
+
+                                                                          /*TEX DEL HEADER*/
+
+:root {
+  --color1: #51cc38;
+  --color5: #3fdbd4;
+  --color3: #1f6b70;
+  --color4: #83db88;
+  --color2: #ebde2e;
+}
+
+.h1-color{
+  position: absolute;
+  left: 390px;
+  top: 80px;
+  font-family: "Exo", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  width: min-content;
+  text-transform: uppercase;
+  background: linear-gradient(219deg, 
+    var(--color1) 19%,
+    transparent 19%, transparent 20%,
+    var(--color2) 20%, var(--color2) 39%,
+    transparent 39%, transparent 40%,
+    var(--color3) 40%, var(--color3) 59%,
+    transparent 59%, transparent 60%,
+    var(--color4) 60%, var(--color4) 79%,
+    transparent 79%, transparent 80%,
+    var(--color5) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+h5{
+  margin-bottom:25px;
+  text-align: center;
+  font-size: 35px;
+  color: #163a3c;
+}     
+
+                                                                               /*cards*/
+
+  .container-card{
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  }
+  
+  .card{
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background:#fff;
+  box-shadow: 0px 1px 10px rgba(0,0,0,1);
+  transition: all 400ms ease-out;
+  cursor: default;
+  }
+  .card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,1);
+  transform: translateY(-9%);
+  }
+  .card img{
+  width: 100%;
+  height: 210px;
+  }
+  .card .contenido-card{
+  padding: 15px;
+  text-align: center;
+  }
+  .card .contenido-card h{
+  margin-bottom: 15px;
+  color: #7a7a7a;
+  }
+  .card .contenido-card p{
+  line-height: 1.8;
+  color: #6a6a6a;
+  font-size: 14px;
+  margin-bottom: 5px;
+  }
+  .card .contenido-card a{
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+  }
+  .card .contenido-card a:hover{
+  background: #2fb4cc;
+  color: #fff;
+  }
+  @media only screen and (min-width:320px) and (max-width:768px){
+  .container-card{
+    flex-wrap: wrap;
+  }
+  .card{
+    margin: 15px;
+  }
+}
+
+@media  only screen and ( max-width:800px){
+  header nav{
+    width: 80%;
+    height: 100%;
+    margin: 0;
+  }
+  header nav ul li{
+    display: block;
+    float: none;
+  }
+}
+                                                                                 /*secciones*/
+
+.sec-noso{
+  height: 650px;
+ 
+}
+.sec-local{
+background-color: transparent;
+}
+.sec-cont{
+  height: 600px;
+}
+
+.sec-horario{
+  padding-bottom: 30px;
+}
+
+.sec-cards
+                                                
+                                                                        /* NOSOTROS*/
+.img-noso{
+width: 600px;
+height: 600px;
+position: relative;
+right: 40px;
+}
+
+.h3-noso{
+position: absolute;
+left: 750px;
+top: 500px;
+font-size: 70px;
+color: #163a3c;
+}
+
+.p-noso{
+font-size: 25px; 
+text-align: center; 
+line-height: 1.5;
+width: 700px;
+}
+                      
+.p-noso{
+position: relative;
+left: 570px;
+bottom: 390px;
+}
+
+                                                                                  /*LOCAL*/
+
+.img-lo1{
+  position: relative;
+  left: 880px;
+  top: 100px;
+  width: 400px; 
+  height: 400px ;
+  transition: all 0.2s ease;
+} 
+
+.img-lo1:hover{
+  transform: scale(1.3);
+}
+
+.img-lo1{
+  border-radius: 1cm;
+}
+
+.h1-lo{
+  position: absolute;
+  left: 350px;
+  top: 1100px;
+  font-size: 70px;
+  color: #163a3c;
+}
+
+.p-lo{
+  font-size: 25px; 
+  text-align: center; 
+  line-height: 1.5;
+  margin-bottom: 10px; 
+  width: 700px;
+}
+
+.p-lo{
+  position: relative;
+  left: 70px;
+  bottom: 200px;
+}
+
+.a-lo{
+  font-size: 100px;
+  position: relative;
+  left: 370px;
+  bottom: 150px;
+  color: red;
+  transition: all 0.5s ease;
+}
+
+.a-lo :hover{
+  transform: scale(1.3);
+}
+
+                                                                      /*whatsApp*/   
+
+.div-wasa{
+display: flex;
+align-items: center;
+position: absolute;
+top: 1900px;
+left: 150px;
+}
+
+.a-wasa{
+margin: 0;   
+font-size: 105px;
+background-color:#31C631;
+height: 120px;
+width: 120px;
+border-radius: 50%;
+text-align: center;
+color: white;
+}
+
+.a-wasa :hover{
+background-color:white;
+height: 120px;
+width: 120px;
+border-radius: 50%;
+text-align: center;
+color: #31C631;    
+}   
+
+.a-wasa{
+box-shadow: 4px 4px 5px #999;
+}
+
+.h3-wasa{
+padding-left:20px ;
+font-size: 40px;
+color: #163a3c;
+transition: 0.3s all ease;  
+}
+
+                                                           /* Gmail.com*/
+.div-mai{
+display: flex;
+align-items: center;
+position: absolute;
+top: 2100px;
+left: 150px;
+}
+
+.a-mai{
+margin: 0;   
+font-size: 105px;
+background-color:white;
+height: 120px;
+width: 120px;
+border-radius: 50%;
+text-align: center;
+color: #F70004;
+}
+
+.a-mai :hover{
+background-color:#F70004;
+height: 120px;
+width: 120px;
+border-radius: 50%;
+text-align: center;
+color: white;    
+}
+
+.a-mai{
+   box-shadow: 4px 4px 5px #999;
+}
+
+
+.h3-mai{
+padding-left:20px ;
+font-size: 40px;
+color: #163a3c;
+transition: 0.3s all ease;  
+
+}
+
+.h3-contacto{
+text-align: center;
+position: relative;
+top: 90px;
+font-size: 70px;
+color: #163a3c;
+}
+
+.p-contacto{
+font-size: 25px; 
+text-align: center; 
+line-height: 1.5;
+margin-bottom: 10px; 
+width: 500px;
+}
+
+.p-contacto{
+position:relative;
+top: 150px;
+left: 750px;
+}
+
+.h3-wasa:hover{
+color: rgb(0, 0, 0);
+font-size: 35px;
+transform: scale(1.0.5);
+}
+
+.h3-mai:hover{
+color: rgb(0, 0, 0);
+font-size: 35px;
+transform: scale(1.0.5);
+}
+
+
+                                                                                /*NAVEGADOR*/
+
+.navegador{
+position: fixed;
+top: 0;
+left: 0;
+background-color: #0099FF;
+z-index: 9999;
+}
+
+.svg-nav{
+position: fixed;
+top: -170px;
+left: 0;
+z-index: 9999;
+}
+
+                                                                                 /*HORARIO*/
+
+.logo-texlogo2{
+  width: 0;
+  height: 0;
+  margin: 0;
+  cursor: pointer;
+
+}
+
+.tex-logo2{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  transition: 0.3s ease;
+  width: 350px;
+  margin-right: 0;
+}
+
+.tex-logo2:hover{
+  color: rgb(0, 0, 0);
+  font-size: 26px;
+
+}
+
+.logo2{
+  height: 60px;
+  width: 60px;
+}      
+
+.a-horario{
+  text-decoration: none;
+}
+
+.img-horario{
+ border-radius: 15px;
+ height: 550px;
+ width: 1000px;
+}
+
+.h3-sombra{
+  color: transparent;
+  width: 800px;
+  height: 460px;
+  text-align: center;
+  background-color: rgba(148, 198, 221, 0.6);
+  box-shadow: 15px 15px 10px #000000;
+  font-size: 100px;
+}
+
+.h3-sombra{
+  border-radius: 15px;
+  position: absolute;
+  top: 2460px ;
+  left: 285px;
+}
+
+.h3-horario{
+  width: 500px;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  left: 400px;
+  font-size: 60px;
+  color: #163a3c;
+ }
+
+.tex-logo2{
+  position: relative;
+  top: 30px;
+  left: 400px;
+  z-index: 99;
+}
+
+.logo2{
+  position: relative;
+  top: 70px;
+  left: 350px;
+  z-index: 99;
+}
+
+.h3-6-8{
+font-size: 35px;
+font-weight: 700;
+color: white;
+text-align: center;
+position: relative;
+bottom: 320px;
+z-index: 99;
+}
+
+                                                             /*lunes a vernez*/
+
+:root {
+  --color1: #51cc38;
+  --color5: #3fdbd4;
+  --color3: #1f6b70;
+  --color4: #83db88;
+  --color2: #ebde2e;
+}
+
+.h3-l-v{
+  width: 410px;
+  position: absolute;
+  left: 480px;
+  top: 2580px;
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(219deg, 
+    var(--color1) 19%,
+    transparent 19%, transparent 20%,
+    var(--color2) 20%, var(--color2) 39%,
+    transparent 39%, transparent 40%,
+    var(--color3) 40%, var(--color3) 59%,
+    transparent 59%, transparent 60%,
+    var(--color4) 60%, var(--color4) 79%,
+    transparent 79%, transparent 80%,
+    var(--color5) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+   z-index: 99;
+} 
+
+:root {
+  --color1: #51cc38;
+  --color5: #3fdbd4;
+  --color3: #1f6b70;
+  --color4: #83db88;
+  --color2: #ebde2e;
+}
+
+.h3-s{
+  width: 410px;
+  position: absolute;
+  left: 480px;
+  top: 2700px;
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(219deg, 
+    var(--color1) 19%,
+    transparent 19%, transparent 20%,
+    var(--color2) 20%, var(--color2) 39%,
+    transparent 39%, transparent 40%,
+    var(--color3) 40%, var(--color3) 59%,
+    transparent 59%, transparent 60%,
+    var(--color4) 60%, var(--color4) 79%,
+    transparent 79%, transparent 80%,
+    var(--color5) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+   z-index: 99;
+}
+
+.h3-8-4{
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 250px;
+  z-index: 99;
+}
+                                                                               /*cards*/
+h5{
+  margin-bottom:25px;
+  text-align: center;
+  font-size: 60px;
+  color: #163a3c;
+}
+
+
+@media screen and (min-width: 768px) {
+  h1{
+    font-size: 60px;
+  }
+}               
+
+  .container-card{
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  }
+  
+  .card{
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background:#fff;
+  box-shadow: 0px 1px 10px rgba(0,0,0,1);
+  transition: all 400ms ease-out;
+  cursor: default;
+  }
+  .card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,1);
+  transform: translateY(-9%);
+  }
+  .card img{
+  width: 100%;
+  height: 210px;
+  }
+  .card .contenido-card{
+  padding: 15px;
+  text-align: center;
+  }
+  .card .contenido-card h{
+  margin-bottom: 15px;
+  color: #7a7a7a;
+  }
+  .card .contenido-card p{
+  line-height: 1.8;
+  color: #6a6a6a;
+  font-size: 14px;
+  margin-bottom: 5px;
+  }
+  .card .contenido-card a{
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2fb4cc;
+  border: 1px solid #2fb4cc;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  margin-bottom: 5px;
+  }
+  .card .contenido-card a:hover{
+  background: #2fb4cc;
+  color: #fff;
+  }
+  @media only screen and (min-width:320px) and (max-width:768px){
+  .container-card{
+    flex-wrap: wrap;
+  }
+  .card{
+    margin: 15px;
+  }
+}
+
+@media  only screen and ( max-width:800px){
+  header nav{
+    width: 80%;
+    height: 100%;
+    margin: 0;
+  }
+  header nav ul li{
+    display: block;
+    float: none;
+  }
+}
+
+                                                            /*PUNTOS DE REFERENCIA*/
+.puntos-de-referencia{
+color: transparent;
+}
+
+
+.punto-ini{
+font-size: 100px;
+position: absolute;
+left: 200px;
+top: -70px;
+}
+
+.punto-l{
+font-size: 100px;
+position: absolute;
+left: 200px;
+top: 968px;
+}
+
+.punto-c{
+font-size: 100px;
+position: absolute;
+left: 200px;
+top: 1660px;
+}
+
+.punto-h{
+font-size: 100px;
+position: absolute;
+left: 200px;
+top: 2328px;
+}
+
+.punto-b{
+font-size: 100px;
+position: absolute;
+left: 200px;
+top: 2970px;
+}                                                          
